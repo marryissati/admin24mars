@@ -1,0 +1,53 @@
+.contentWarper {
+  position: relative;
+  height: 65%;
+  background: url("/images/purple.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentBox {
+  position: absolute;
+  height: 520px;
+  width: 370px;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+  padding: 2rem;
+  top: -30%;
+  transform: translateY(-30%, -30%);
+}
+
+.title {
+  font-weight: 600;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.txt {
+  margin: 1rem 0;
+  font-size: 14px;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.createBtn button {
+  background: var(--secondary-color);
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  padding: 0.8rem 0;
+  width: 100%;
+}
+
+.terms {
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.terms span {
+  color: var(--secondary-color);
+}

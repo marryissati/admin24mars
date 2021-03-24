@@ -1,0 +1,38 @@
+.deleteIcon{
+    color:#ffcccc;
+    cursor:pointer;
+
+
+
+}
+.deleteIcon:hover{
+    color:red;
+    
+
+}
+.previewIcon{
+    color:lightgreen;
+
+    
+
+}
+.previewIcon:hover{
+    color:green;
+    cursor:pointer;
+    
+
+}
+
+
+.downloadIcon{
+    color:#b1b1ff;
+    cursor:pointer;
+
+
+
+}
+.downloadIcon:hover{
+    color:#6565ff
+    
+
+}

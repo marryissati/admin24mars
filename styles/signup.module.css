@@ -1,0 +1,112 @@
+.title {
+  color: #0d0c54;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form {
+  width: 90%;
+}
+
+.text {
+  color: var(--secondary-color);
+  margin: 1rem 0;
+  font-size: 16px;
+  max-width: 80%;
+  font-weight:  500;
+}
+
+.createBtn button {
+  background: var(--secondary-color);
+  outline: none;
+  /* border: none; */
+  border-radius: 8px;
+  color: #fff;
+  padding: 0.8rem 0;
+  width: 50%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .createBtn2 button {
+  background: var(--secondary-color);
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  color: rgb(109, 5, 5);
+  padding: 0.8rem 0;
+  width: 50%;
+  margin-left: 300px;
+  margin-top: -700px;
+} */
+
+.terms {
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.terms span {
+  color: var(--secondary-color);
+}
+
+.right {
+  background: url("/images/purple.jpg") no-repeat center center/cover;
+}
+
+.testimonialWarper {
+  position: relative;
+  text-align: center;
+}
+
+.testimonial {
+  height: 240px;
+  width: 350px;
+  background: #fff;
+  border-radius: 25px;
+}
+
+.avatar {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 40%;
+  top: -15%;
+  transform: translate((-40%, -40%));
+}
+
+.content {
+  position: absolute;
+  top: 15%;
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+
+.cont_title {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.cont_txt {
+  color: var(--secondary-color);
+  font-size: 12px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+@media (max-width: 957px) {
+  .right {
+    margin-top: 2rem;
+    height: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .testimonial {
+    width: 250px;
+    height: 280px;
+  }
+  .cont_txt {
+    margin-left: -1rem;
+  }
+}
